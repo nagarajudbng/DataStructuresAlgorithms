@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
 
-    public static void main(String str[]){
+    public static void main(String[] str){
         int[] input = {60,20,40,30,50,10};
         System.out.println("Input = "+Arrays.toString(input));
 
