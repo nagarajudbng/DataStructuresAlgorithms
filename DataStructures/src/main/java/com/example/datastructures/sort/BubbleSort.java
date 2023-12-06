@@ -3,7 +3,10 @@ package com.example.datastructures.sort;
 import java.util.Arrays;
 
 public class BubbleSort {
-
+    /*
+    It repeatedly steps through the list to be sorted, compares each pair of adjacent elements
+    and swaps them if they are in the wrong order
+     */
     public static void main(String[] str){
         int[] input = {60,20,40,30,50,10};
         System.out.println("Input = "+Arrays.toString(input));
