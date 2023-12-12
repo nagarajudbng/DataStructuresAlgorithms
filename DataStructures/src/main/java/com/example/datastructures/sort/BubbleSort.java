@@ -6,6 +6,14 @@ public class BubbleSort {
     /*
     It repeatedly steps through the list to be sorted, compares each pair of adjacent elements
     and swaps them if they are in the wrong order
+
+    Worst and Average Case Time Complexity:
+
+    O(n*n). The worst-case occurs when an array is reverse sorted.
+
+    Best Case Time Complexity:
+
+    O(n). Best case occurs when an array is already sorted.
      */
     public static void main(String[] str){
         int[] input = {60,20,40,30,50,10};
