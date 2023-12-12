@@ -20,6 +20,12 @@ Efficient Time Complexity: Heap Sort has a time complexity of O(n log n) in all 
 Memory Usage – Memory usage can be minimal because apart from what is necessary to hold the initial list of items to be sorted, it needs no additional memory space to work
 Simplicity –  It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion.
  */
+/*
+Disadvantages of Heap Sort:
+Costly: Heap sort is costly.
+Unstable: Heap sort is unstable. It might rearrange the relative order.
+Efficient: Heap Sort is not very efficient when working with highly complex data. 
+ */
 
 public class HeapSort {
 
