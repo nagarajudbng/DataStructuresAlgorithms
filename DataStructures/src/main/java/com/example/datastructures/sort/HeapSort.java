@@ -14,6 +14,12 @@ Repeat the following steps until the heap contains only one element:
 -Heapify the remaining elements of the heap.
 The sorted array is obtained by reversing the order of the elements in the input array.
  */
+/*
+Advantages of Heap Sort:
+Efficient Time Complexity: Heap Sort has a time complexity of O(n log n) in all cases. This makes it efficient for sorting large datasets. The log n factor comes from the height of the binary heap, and it ensures that the algorithm maintains good performance even with a large number of elements.
+Memory Usage – Memory usage can be minimal because apart from what is necessary to hold the initial list of items to be sorted, it needs no additional memory space to work
+Simplicity –  It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion.
+ */
 
 public class HeapSort {
 
