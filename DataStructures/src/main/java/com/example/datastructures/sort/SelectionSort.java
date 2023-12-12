@@ -6,6 +6,8 @@ public class SelectionSort {
     /*
     The algorithm sorts an array by repeatedly finding the minimum element (considering ascending
      order) from the unsorted part and putting it at a proper position in the array.
+
+     Time Complexity: O(n 2) as there are two nested loops.
      */
     public static void main(String[] str){
         int[] input = {60,20,40,30,50,10};
